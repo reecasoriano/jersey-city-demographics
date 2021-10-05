@@ -1,0 +1,79 @@
+{
+    "num_neighborhoods": 6,
+    "num_tracts": 67,
+    "total_pop": 259651,
+    "total_hisp_pop": 71809,
+    "total_asian_pop": 64923,
+    "total_black_pop": 59860,
+    "total_white_pop": 55928,
+    "total_amerind_pop": 575,
+    "total_other_pop": 6556,
+    "neighborhoods": [
+        {
+            "name": "Bergen-Lafayette",
+            "num_tracts": 11,
+            "total_pop": 31115,
+            "total_hisp_pop": 8867,
+            "total_asian_pop": 2554,
+            "total_black_pop": 15492,
+            "total_white_pop": 3602,
+            "total_amerind_pop": 49,
+            "total_other_pop": 551
+        },
+        {
+            "name": "Downtown",
+            "num_tracts": 14,
+            "total_pop": 49913,
+            "total_hisp_pop": 8109,
+            "total_asian_pop": 18761,
+            "total_black_pop": 2776,
+            "total_white_pop": 18698,
+            "total_amerind_pop": 37,
+            "total_other_pop": 1532
+        },
+        {
+            "name": "Greenville",
+            "num_tracts": 12,
+            "total_pop": 54821,
+            "total_hisp_pop": 12945,
+            "total_asian_pop": 9705,
+            "total_black_pop": 23917,
+            "total_white_pop": 6721,
+            "total_amerind_pop": 135,
+            "total_other_pop": 1398
+        },
+        {
+            "name": "The Heights",
+            "num_tracts": 14,
+            "total_pop": 54526,
+            "total_hisp_pop": 26267,
+            "total_asian_pop": 11740,
+            "total_black_pop": 2923,
+            "total_white_pop": 12417,
+            "total_amerind_pop": 221,
+            "total_other_pop": 958
+        },
+        {
+            "name": "Journal Square",
+            "num_tracts": 7,
+            "total_pop": 22712,
+            "total_hisp_pop": 4046,
+            "total_asian_pop": 9858,
+            "total_black_pop": 2236,
+            "total_white_pop": 5855,
+            "total_amerind_pop": 34,
+            "total_other_pop": 683
+        },
+        {
+            "name": "West Side",
+            "num_tracts": 9,
+            "total_pop": 46564,
+            "total_hisp_pop": 11575,
+            "total_asian_pop": 12305,
+            "total_black_pop": 12516,
+            "total_white_pop": 8635,
+            "total_amerind_pop": 99,
+            "total_other_pop": 1434
+        }
+    ]
+}

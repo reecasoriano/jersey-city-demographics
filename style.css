@@ -1,0 +1,147 @@
+body {
+    font-family: 'Urbanist', sans-serif;
+    background-color: rgb(21, 21, 21);
+    color: white;
+    width:  100%;
+    height: 100%;
+    margin: 0;
+}
+
+/* DARK/LIGHT TOGGLE BUTTON */
+#theme {
+    display: flex;
+    margin-left: auto;
+    font-size: 12px;
+    font-family: 'Urbanist', sans-serif;
+}
+
+/* SECTION 1 - top of page */
+.headers_1 {
+    text-align: center;
+}
+
+.jersey-city-image {
+    width: 80%;
+}
+
+/* SECTION 2 - dropdown menu */
+.user_2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+
+#label_select {
+    margin-bottom: 7px;
+}
+
+#neighborhood_select {
+    width: 125px;
+    text-align: center;
+}
+
+/* SECTION 3 - data display/visualization */
+.data_3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 300px;
+    margin: 5px;
+    border: rgb(190, 184, 184) solid 2px;
+} */
+
+/* data displayed as text */
+#stats {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    height: 300px;
+    padding-top: 15px;
+    margin: 5px;
+    border: rgb(190, 184, 184) solid 2px;
+}
+
+#n-name {
+    font-size: x-large;
+    margin: 15px 15px 30px 15px;
+}
+
+/* population by race */
+#population-specifics {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    justify-items: center;
+    margin: 20px;
+    font-size: small;
+}
+
+/* #pop-icon {
+    width: 10%;
+    height: auto;
+} */
+
+.neighborhood_info {
+    margin: 5px;
+}
+
+/* data visualization - p5 container */
+#canvas-container {
+    margin-bottom: 50px;
+    width: 80%;
+    height: 400px;
+    margin: 5px;
+    border: rgb(190, 184, 184) solid 2px;
+}
+
+#canvas-container canvas {
+    width: 100% !important;
+    height: auto !important;
+}
+
+#caption {
+    font-size: smaller;
+}
+
+/* SECTION 4 - sources and other info */
+.description_4 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.info {
+    width: 80%;
+    padding: 20px 0px 20px 0px;
+    text-align: justify;
+}
+
+a {
+    color: rgb(221, 50, 50)
+}
+
+footer {
+    font-size: small;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+

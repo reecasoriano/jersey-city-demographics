@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jersey City Demographics</title>
+    <!-- Link to Urbanist Font from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,200;0,300;0,400;0,500;0,700;1,200;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet" />
+    <link href="style.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Create button to toggle theme. -->
+    <button id="theme">Toggle dark/light mode</button>
+
+    <!-- Create section (1) for project headline and subtitle. -->
+    <section class="headers_1">
+        <h1 id="main">Jersey City Demographics:</h1>
+        <h3 id="sub">Population Data on the Neighborhoods of Jersey City, NJ</h3>
+        <img src="/assets/jerseycity_aerial1.jpeg" alt="Aerial view of Jersey City" class="jersey-city-image" />
+    </section>
+
+    <!-- Create section (2) user interaction. -->
+    <section class="user_2">
+        <!-- Drop down menu to select neighborhood -->
+        <label for="neighborhood_select" id="label_select">Select a neighborhood:</label>
+        <select id="neighborhood_select">
+            <!-- Main neighborhoods in Jersey City: -->
+            <option value="">--Neighborhood--</option>
+            <option class="select-item" value="Bergen-Lafayette">Bergen-Lafayette</option>
+            <option class="select-item" value="Downtown">Downtown</option>
+            <option class="select-item" value="Greenville">Greenville</option>
+            <option class="select-item" value="The Heights">The Heights</option>
+            <option class="select-item" value="Journal Square">Journal Square</option>
+            <option class="select-item" value="West Side">West Side</option>
+        </select>
+    </section>
+
+    <!-- Create section (3) for data and visualization via p5. -->
+    <section class="data_3">
+        <div id="stats">
+            <h4 class="neighborhood_info" id="n-name">
+                </h3>
+                <p class="neighborhood_info" id="n-pop"></p>
+                <div class="neighborhood_info" id="population-specifics">
+                    <!-- <img src="assets/population_icon.png" alt="outline of three human figures" id="pop-icon"/> -->
+                    <p id="n-amerind-pop"></p>
+                    <p id="n-asian-pop"></p>
+                    <p id="n-black-pop"></p>
+                    <p id="n-hisp-pop"></p>
+                    <p id="n-white-pop"></p>
+                    <p id="n-other-pop"></p>
+                </div>
+
+        </div>
+        <!-- Placeholder for p5 sketch. 
+             Current issues:
+                * How to access JSON data in p5 sketch (data was undefined).
+                * How to make canvas responsive in terms of sizing.
+                * How to change the data based on the selected neighborhood. -->
+        <div id="canvas-container"></div>
+        <p id="caption"><i>This is a placeholder. This is not real data.</i></p>
+    </section>
+
+    <!-- Create section (4) for project description, research, and other info. -->
+    <section class="description_4">
+        <img src="/assets/jerseycity_aerial2.jpeg" alt="Aerial view of Jersey City" class="jersey-city-image" />
+        <p class="info">
+            Data taken from <a target="_blank"
+                href="https://data.jerseycitynj.gov/explore/dataset/jersey-city-neighborhoods/information/">Jersey City
+                Neighborhoods</a> and <a target="_blank"
+                href="https://data.jerseycitynj.gov/explore/dataset/census-tracts-2020/information/?disjunctive.namelsad_1&disjunctive.tract_inco">Census
+                Tracts 2020</a> (available on Jersey City's <a target="_blank"
+                href="https://data.jerseycitynj.gov/pages/home-page/">data portal</a>). Both datasets were used to
+            calculate population statistics based on the six main neighborhoods of Jersey City – each made up of
+            different census tracts (geographic regions defined for the purpose of taking a census).
+        </p>
+    </section>
+
+    <!-- Footer for author and class info -->
+    <footer> Reeca Soriano, Connections Lab, Fall 2021</footer>
+
+    <!-- Link to JavaScript files -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="sketch.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
