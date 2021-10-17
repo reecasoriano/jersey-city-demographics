@@ -1,6 +1,8 @@
 let neighborhoodData; // global variable to be used in p5 sketch
 
 window.addEventListener('load', function () {
+    document.body.style.background = "rgb(21, 21, 21)";
+    
     // make sure HTML is loaded
     console.log('page is loaded');
 
